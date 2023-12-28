@@ -19,7 +19,7 @@ body {
     padding: 10px 0px 20px 0px;
 }
 
-.rc {
+.haikus {
     font-size: 18px;
     white-space: pre-wrap;
 }
@@ -30,7 +30,7 @@ body {
         max-height: 340px;
     }
 
-    .rc {
+    .haikus {
         font-size: 22px;
     }
 }

@@ -11,15 +11,15 @@
   <body>
     <h1>Kanegonda Ravi Chythanya</h1>
     <div>
-      <% for(var i=0; i < rc.length; i++) { %>
+      <% for(var i=0; i < haikus.length; i++) { %>
         <img
           class="mona-images"
-          src="images/<%= rc[i].image %>" />
+          src="images/<%= haikus[i].image %>" />
         <div 
           class="haiku-containers">
           <p 
-            class="rc"
-          ><%- rc[i].text %></p>
+            class="haikus"
+          ><%- haikus[i].text %></p>
         </div>
       <% } %>
     </div>
